@@ -1,1 +1,5 @@
-# reg_keys_api_unhooker
+# Reg Keys Api Unhooker
+Inspired by https://www.insecurity.be/blog/2018/01/21/retrieving-ntlm-hashes-and-what-changed-technical-writeup/, the API Unhooker technique from https://github.com/RedLectroid/APIunhooker, along with some help from ChatGPT, I decided to bring those two together and write some programs and a script that will dump the required values from the SYSTEM and SAM keys in order to obtain a user's NTHash. The `C++` programs were compiled in **visual studio** and the *python script* only requires `pip install pycryptodome`.
+
+## Disclaimer
+All the code provided on this repository is for educational/research purposes only. Any actions and/or activities related to the material contained within this repository is solely your responsibility. The misuse of the code in this repository can result in criminal charges brought against the persons in question. Author will not be held responsible in the event any criminal charges be brought against any individuals misusing the code in this repository to break the law.
